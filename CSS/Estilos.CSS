@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh
+
+}
+    .Formulario_principal{
+        width: 550px;
+        background: #1c3c5e;
+        border: black;
+        padding: 60px;
+        margin-top: 60px;
+        margin: auto;
+        border-radius: 10px;
+        font-family: 'Arial';
+        text-align: center;
+        color:black;
+    }
+    .Formulario_principal h2{
+        color:azure;
+        font-size: 32px;
+        margin-bottom: 20px;
+
+    }
+
+    .Campos{
+        background: #1c3c5e;
+        width: 100%;
+        border-radius: 12px;
+        padding: 10px;
+        border: #92bfe7;
+        margin-bottom: 16px;
+        font-size: 18px;
+        font-family: 'Arial' ;
+        color:white;
+    }
+    .Botón{
+            width: 100%;
+            background: #92bfe7;
+            border: none;
+            padding: 12px;
+            margin-top: 20px;
+            color: #13263e;
+            margin-bottom: auto;
+            font-size: 16px;
+            border-radius: 12px;
+            font-size: 25px;
+            font-family: 'Arial';
+    }
+    .Tabla_Usuarios{
+            width: auto;
+            background: #1c3c5e;
+            border: black;
+            padding: 60px;
+            margin-top: 60px;
+            margin: auto;
+            border-radius: 10px;
+            font-family: 'Arial';
+            font-size: 18px;
+            text-align: center;
+           
+    }
+    .Tabla_Usuarios h2 {
+            color: azure;
+            font-size: 32px;
+            margin-bottom: 20px;
+    }
+    .Tabla_Usuarios table{
+            background: #1c3c5e;
+            border: 1px solid #ccc;
+            border-collapse: collapse;           
+            width: 100%;           
+            padding: 0;            
+            margin: 0;         
+            table-layout: fixed;
+            color: black;
+    }
+    .Tabla_Usuarios tr{
+            background-color: #dcdcdc;
+            border: 1px solid #bdbdbd;
+            padding: 8px;
+
+    }
+    .Tabla_Usuarios th{
+        padding: 20px;      
+        text-align: center;
+        font-family: 'Arial';
+        font-size: .4cm;
+    }
+    .botón_editar{
+        background: #009688;
+        padding: 6px;
+        color:#fff;
+        text-align: center;
+        font-weight: bold;
+
+    }
+    .botón_eliminar{
+        background: #b11e1e;
+        padding: 6px;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+    }
